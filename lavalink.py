@@ -24,7 +24,7 @@ else:
     print("[INFO] Success in downloading Lavalink...")
     
 try:
-    Popen('java -jar Lavalink.jar -XX:+UseContainerSupport -Xmx250m -Xms250m -Xss20m -XX:+AggressiveOpts -XX:CICompilerCount=2 -Dfile.encoding=UTF-8', shell=True)
+    Popen('java -jar Lavalink.jar -XX:+UseContainerSupport -Xmx350m -Xms350m -XX:+AggressiveOpts -XX:CICompilerCount=2 -Dfile.encoding=UTF-8', shell=True)
 except:
     print(f"[ERROR] Failed to start Lavalink server... Info: {exc}")
 
