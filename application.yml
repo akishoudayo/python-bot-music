@@ -3,7 +3,7 @@ server:
   address: 0.0.0.0
 lavalink:
   server:
-    password: REPLACEPASSWORD
+    password: wqigr8q3ug5389
     sources:
       youtube: true
       bandcamp: true
