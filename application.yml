@@ -3,7 +3,7 @@ server:
   address: 0.0.0.0
 lavalink:
   server:
-    password: wqigr8q3ug5389
+    password: REPLACEPASSWORD
     sources:
       youtube: true
       bandcamp: true
@@ -21,7 +21,7 @@ lavalink:
     gc-warnings: true
     ratelimit:
       retryLimit: 3
-      # strategy: "LoadBalance" # RotateOnBan | LoadBalance | NanoSwitch | RotatingNanoSwitch
+      strategy: "LoadBalance" # RotateOnBan | LoadBalance | NanoSwitch | RotatingNanoSwitch
 
 metrics:
   prometheus:
