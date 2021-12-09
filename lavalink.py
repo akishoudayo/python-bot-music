@@ -22,6 +22,6 @@ else:
     print("[INFO] Success in downloading Lavalink...")
     
 try:
-    system('java -jar Lavalink.jar {}'.format(getenv('ADDITIONAL_JAVA_OPTIONS')))
+    system('java -jar Lavalink.jar {}'.format(getenv('JAVA_TOOL_OPTIONS')))
 except:
     print(f"[ERROR] Failed to start Lavalink server... Info: {exc}")
