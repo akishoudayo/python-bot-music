@@ -13,9 +13,9 @@ lavalink:
       http: true
       local: false
     bufferDurationMs: 1500 # The duration of the NAS buffer. Higher values fare better against longer GC pauses
-    frameBufferDurationMs: 10000 # How many milliseconds of audio to keep buffered
+    frameBufferDurationMs: 3000 # How many milliseconds of audio to keep buffered
     youtubePlaylistLoadLimit: 1
-    playerUpdateInterval: 100
+    playerUpdateInterval: -1
     youtubeSearchEnabled: true
     soundcloudSearchEnabled: true
     gc-warnings: true
@@ -25,7 +25,7 @@ lavalink:
 
 metrics:
   prometheus:
-    enabled: false
+    enabled: true
     endpoint: /metrics
 
 sentry:
