@@ -21,7 +21,7 @@ lavalink:
     gc-warnings: true
     ratelimit:
       retryLimit: 3
-      strategy: "LoadBalance" # RotateOnBan | LoadBalance | NanoSwitch | RotatingNanoSwitch
+      strategy: "RotateOnBan" # RotateOnBan | LoadBalance | NanoSwitch | RotatingNanoSwitch
 
 metrics:
   prometheus:
